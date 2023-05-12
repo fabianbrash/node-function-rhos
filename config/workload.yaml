@@ -5,9 +5,10 @@ metadata:
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: node-function-rhos
+  namespace: backend
 spec:
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/fabianbrash/node-function-rhos.git
       ref:
         branch: main
